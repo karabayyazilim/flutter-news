@@ -1,31 +1,71 @@
-  
-.dart_tool/pub/bin/sdk-version
-.dart_tool/pub/bin/intl_translation/extract_to_arb.dart.snapshot.dart2
-.dart_tool/pub/bin/intl_translation/generate_from_arb.dart.snapshot.dart2
-.dart_tool/pub/bin/intl_translation/make_examples_const.dart.snapshot.dart2
-.dart_tool/pub/bin/intl_translation/rewrite_intl_messages.dart.snapshot.dart2
-.dart_tool/pub/bin/test/test.dart.snapshot.dart2
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
 .idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
 .flutter-plugins
 .packages
-pubspec.lock
-android/local.properties
-android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
-ios/Flutter/Generated.xcconfig
-android/.gradle/
+.pub-cache/
+.pub/
 build/
-android/gradlew
-android/gradlew.bat
 
-.dart_tool/
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
 
-flutter_01.skp
-flutter_02.skp
-flutter_03.skp
-flutter_04.skp
+# iOS/XCode related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
 
-flutter_export_environment.sh
-flutter_01.log
-flutter_02.log
-.flutter-plugins-dependencies
-Flutter.podspec
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
