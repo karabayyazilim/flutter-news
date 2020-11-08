@@ -1,41 +1,31 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
+  
+.dart_tool/pub/bin/sdk-version
+.dart_tool/pub/bin/intl_translation/extract_to_arb.dart.snapshot.dart2
+.dart_tool/pub/bin/intl_translation/generate_from_arb.dart.snapshot.dart2
+.dart_tool/pub/bin/intl_translation/make_examples_const.dart.snapshot.dart2
+.dart_tool/pub/bin/intl_translation/rewrite_intl_messages.dart.snapshot.dart2
+.dart_tool/pub/bin/test/test.dart.snapshot.dart2
 .idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
 .flutter-plugins
-.flutter-plugins-dependencies
 .packages
-.pub-cache/
-.pub/
-/build/
+pubspec.lock
+android/local.properties
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+ios/Flutter/Generated.xcconfig
+android/.gradle/
+build/
+android/gradlew
+android/gradlew.bat
 
-# Web related
-lib/generated_plugin_registrant.dart
+.dart_tool/
 
-# Symbolication related
-app.*.symbols
+flutter_01.skp
+flutter_02.skp
+flutter_03.skp
+flutter_04.skp
 
-# Obfuscation related
-app.*.map.json
+flutter_export_environment.sh
+flutter_01.log
+flutter_02.log
+.flutter-plugins-dependencies
+Flutter.podspec
